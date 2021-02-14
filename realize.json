@@ -1,0 +1,7 @@
+{
+  "name": "nextjs-template",
+  "branch": "derealize",
+  "npmScript": "dev",
+  "port": 3000,
+  "include": "*"
+}
