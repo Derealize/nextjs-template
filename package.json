@@ -8,12 +8,25 @@
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.4",
     "next": "10.0.6",
+    "postcss": "^8.2.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
-    "@derealize/babel-plugin-transform-react": "^1.0.5"
+    "@derealize/babel-plugin-transform-react": "^1.0.5",
+    "@types/node": "^14.14.28",
+    "@types/react": "^17.0.2",
+    "typescript": "^4.1.5"
+  },
+  "derealize": {
+    "name": "nextjs-template",
+    "branch": "derealize",
+    "npmScript": "dev",
+    "port": 3000,
+    "include": "*"
   }
 }
