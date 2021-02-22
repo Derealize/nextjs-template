@@ -255,10 +255,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@derealize/babel-plugin-transform-react@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/@derealize/babel-plugin-transform-react/-/babel-plugin-transform-react-1.0.5.tgz#f32980c0261cf224f44dec49ba4ea12047e432d6"
-  integrity sha512-NgueHuA5cXHZh283FXygroOeseJD5sEpDaFKVGeQClq82sYli+swld0zo50hSvIA0W+aebxXeBEWp4Xm8iYsuA==
+"@derealize/babel-plugin-transform-react@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/@derealize/babel-plugin-transform-react/-/babel-plugin-transform-react-1.0.7.tgz#1bfa78c9eaf5fc042b53993b9d0f001d2a347802"
+  integrity sha512-5ckTHH4WUAdkY3H8tUXmyYzkmsSio5sVkmVJ9lD7iWonzpyxymi1DaFCYhTSrViAq4ewm2yBWx+j6WeVF5DibA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.1"
 
