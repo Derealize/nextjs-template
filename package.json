@@ -26,6 +26,7 @@
     "branch": "derealize",
     "npmScript": "dev",
     "lunchUrl": "http://localhost:3000",
+    "port": 3000,
     "pages": [
       "/",
       "/tailwind"
