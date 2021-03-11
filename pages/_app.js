@@ -1,20 +1,23 @@
-import "../styles/globals.css";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
   useEffect(() => {
     if (typeof window === "undefined" || !window.derealize) return;
 
-    let script = document.querySelector("#derealize");
-    if (!script) {
-      script = document.createElement("script");
-      script.id = "derealize";
-      script.setAttribute("src", window.derealize.injectScript);
-      document.body.appendChild(script);
-    }
+    const handleRouteChange = (url, { shallow }) => {
+      window.derealize.listen();
+    };
 
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method:
     return () => {
-      document.body.removeChild(script);
+      router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, []);
 
@@ -22,7 +25,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-
-// note:
-// process.browser is deprecated and the recommended approach is 'typeof window === "undefined"'
-// A custom _document.js is not rendered client-side. componentDidMount (or any lifecycle method) will never trigger for client-side.
