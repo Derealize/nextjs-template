@@ -10,13 +10,79 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <h1 className={styles.title}>
+        Welcome to <a href="https://derealize.com">Derealize - Tailwindcss Studio!</a>
+      </h1>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js using tailwindcss!</a>
-        </h1>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
+        <p>
+          <Link href="/Welcome">
+            <a>Welcome</a>
+          </Link>
+          <Link href="/Play">
+            <a>Play</a>
+          </Link>
+        </p>
+        <p className="flex">
+          <Link href="/Sizing">
+            <a>Sizing</a>
+          </Link>
+          <Link href="/Color">
+            <a>Color</a>
+          </Link>
+          <Link href="/Typography">
+            <a>Typography</a>
+          </Link>
+          <Link href="/Shadows">
+            <a>Shadows</a>
+          </Link>
+        </p>
+        <p className="flex">
+          <Link href="/Simple">
+            <a>Simple</a>
+          </Link>
+          <Link href="/Payful">
+            <a>Payful</a>
+          </Link>
+          <Link href="/Elegant">
+            <a>Elegant</a>
+          </Link>
+          <Link href="/Brutalist">
+            <a>Brutalist</a>
+          </Link>
+        </p>
+        <p>
+          <Link href="/Performance">
+            <a>Performance</a>
+          </Link>
+          <Link href="/Responsive">
+            <a>Responsive</a>
+          </Link>
+          <Link href="/State">
+            <a>State</a>
+          </Link>
+        </p>
+        <p>
+          <Link href="/component/Recipes">
+            <a>Component</a>
+          </Link>
+          <Link href="/ApplyDirective">
+            <a>@apply</a>
+          </Link>
+          <Link href="/Dark">
+            <a>Dark</a>
+          </Link>
+        </p>
+        <p>
+          <Link href="/Grid">
+            <a>Grid</a>
+          </Link>
+          <Link href="/Transforms">
+            <a>Transforms</a>
+          </Link>
+          <Link href="/Gradients">
+            <a>Gradients</a>
+          </Link>
+        </p>
       </main>
 
       <footer className={styles.footer}>
