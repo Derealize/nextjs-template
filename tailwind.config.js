@@ -2,7 +2,7 @@ const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'false'
   theme: {
     extend: {},
   },
@@ -14,6 +14,7 @@ module.exports = {
     },
   },
   plugins: [
+    require("@tailwindcss/forms"),
     plugin(function ({ addVariant, e }) {
       addVariant("required", ({ modifySelectors, separator }) => {
         modifySelectors(({ className }) => {
