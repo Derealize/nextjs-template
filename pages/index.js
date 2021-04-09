@@ -14,7 +14,7 @@ export default function Home() {
         Welcome to{" "}
         <a href="https://derealize.com">Derealize - Tailwindcss Studio!</a>
       </h1>
-      <main className={styles.main}>
+      <div className={styles.main}>
         <p>
           <Link href="/Welcome">
             <a>Welcome</a>
@@ -23,7 +23,7 @@ export default function Home() {
             <a>Play</a>
           </Link>
         </p>
-        <p className="flex">
+        <p>
           <Link href="/Sizing">
             <a>Sizing</a>
           </Link>
@@ -37,7 +37,7 @@ export default function Home() {
             <a>Shadows</a>
           </Link>
         </p>
-        <p className="flex">
+        <p>
           <Link href="/build-anything/Simple">
             <a>Simple</a>
           </Link>
@@ -84,7 +84,79 @@ export default function Home() {
             <a>Gradients</a>
           </Link>
         </p>
-      </main>
+      </div>
+      <div className={styles.main}>
+        <h4>Marketing</h4>
+        <p>
+          <Link href="/marketing/Hero">
+            <a>Hero</a>
+          </Link>
+          <Link href="/marketing/Feature">
+            <a>Feature</a>
+          </Link>
+          <Link href="/marketing/CTA">
+            <a>CTA</a>
+          </Link>
+          <Link href="/marketing/Headers">
+            <a>Headers</a>
+          </Link>
+          <Link href="/marketing/Banners">
+            <a>Banners</a>
+          </Link>
+        </p>
+      </div>
+      <div className={styles.main}>
+        <h4>Application UI</h4>
+        <p>
+          <Link href="/application-ui/Layouts">
+            <a>Layouts</a>
+          </Link>
+          <Link href="/application-ui/Headings">
+            <a>Headings</a>
+          </Link>
+          <Link href="/application-ui/DescriptionLists">
+            <a>DescriptionLists</a>
+          </Link>
+          <Link href="/application-ui/Tables">
+            <a>Tables</a>
+          </Link>
+          <Link href="/application-ui/Navbars">
+            <a>Navbars</a>
+          </Link>
+          <Link href="/application-ui/Pagination">
+            <a>Pagination</a>
+          </Link>
+          <Link href="/application-ui/Modals">
+            <a>Modals</a>
+          </Link>
+          <Link href="/application-ui/SlideOvers">
+            <a>SlideOvers</a>
+          </Link>
+          <Link href="/application-ui/Avatars">
+            <a>Avatars</a>
+          </Link>
+          <Link href="/application-ui/Dropdowns">
+            <a>Dropdowns</a>
+          </Link>
+        </p>
+      </div>
+      <div className={styles.main}>
+        <h4>Form</h4>
+        <p>
+          <Link href="/application-ui/form/FormLayout">
+            <a>FormLayout</a>
+          </Link>
+          <Link href="/application-ui/form/InputGroups">
+            <a>InputGroups</a>
+          </Link>
+          <Link href="/application-ui/form/SelectMenus">
+            <a>SelectMenus</a>
+          </Link>
+          <Link href="/application-ui/form/SignIn">
+            <a>SignIn</a>
+          </Link>
+        </p>
+      </div>
 
       <footer className={styles.footer}>
         <a

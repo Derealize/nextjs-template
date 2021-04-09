@@ -1,6 +1,6 @@
 export default () => {
   return (
-    <div>
+    <div className="bg-gray-100 p-16">
       <label
         htmlFor="price"
         className="block text-sm font-medium text-gray-700"

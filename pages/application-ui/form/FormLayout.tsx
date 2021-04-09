@@ -1,6 +1,6 @@
 export default () => {
   return (
-    <>
+    <div className="bg-gray-100 p-16">
       <div>
         <div className="md:grid md:grid-cols-3 md:gap-6">
           <div className="md:col-span-1">
@@ -470,6 +470,6 @@ export default () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

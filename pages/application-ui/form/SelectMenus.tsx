@@ -1,7 +1,7 @@
 // https://tailwindui.com/components/application-ui/forms/select-menus
 export default () => {
   return (
-    <div>
+    <div className="bg-gray-100 p-16">
       <label
         id="listbox-label"
         className="block text-sm font-medium text-gray-700"
@@ -79,6 +79,40 @@ export default () => {
               <span className="font-normal ml-3 block truncate">
                 Wade Cooper
               </span>
+            </div>
+          </li>
+
+          <li
+            className="text-gray-900 cursor-default select-none relative py-2 pl-3 pr-9"
+            id="listbox-option-0"
+            role="option"
+          >
+            <div className="flex items-center">
+              <img
+                src="/photo-1550525811.jfif"
+                alt=""
+                className="flex-shrink-0 h-6 w-6 rounded-full"
+              />
+              {/* <!-- Selected: "font-semibold", Not Selected: "font-normal" --> */}
+              <span className="font-normal ml-3 block truncate">
+                Arlene Mccoy
+              </span>
+            </div>
+          </li>
+
+          <li
+            className="text-gray-900 cursor-default select-none relative py-2 pl-3 pr-9"
+            id="listbox-option-0"
+            role="option"
+          >
+            <div className="flex items-center">
+              <img
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+                className="flex-shrink-0 h-6 w-6 rounded-full"
+              />
+              {/* <!-- Selected: "font-semibold", Not Selected: "font-normal" --> */}
+              <span className="font-normal ml-3 block truncate">Tom Cook</span>
             </div>
 
             {/* <!--
