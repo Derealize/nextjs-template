@@ -11,7 +11,8 @@ export default function Home() {
       </Head>
 
       <h1 className={styles.title}>
-        Welcome to <a href="https://derealize.com">Derealize - Tailwindcss Studio!</a>
+        Welcome to{" "}
+        <a href="https://derealize.com">Derealize - Tailwindcss Studio!</a>
       </h1>
       <main className={styles.main}>
         <p>
@@ -37,16 +38,16 @@ export default function Home() {
           </Link>
         </p>
         <p className="flex">
-          <Link href="/Simple">
+          <Link href="/build-anything/Simple">
             <a>Simple</a>
           </Link>
-          <Link href="/Payful">
-            <a>Payful</a>
+          <Link href="/build-anything/Playful">
+            <a>Playful</a>
           </Link>
-          <Link href="/Elegant">
+          <Link href="/build-anything/Elegant">
             <a>Elegant</a>
           </Link>
-          <Link href="/Brutalist">
+          <Link href="/build-anything/Brutalist">
             <a>Brutalist</a>
           </Link>
         </p>
@@ -57,8 +58,8 @@ export default function Home() {
           <Link href="/Responsive">
             <a>Responsive</a>
           </Link>
-          <Link href="/State">
-            <a>State</a>
+          <Link href="/States">
+            <a>States</a>
           </Link>
         </p>
         <p>

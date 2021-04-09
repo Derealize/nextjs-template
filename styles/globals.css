@@ -16,11 +16,11 @@ a {
 }
 
 .ground {
-  @apply m-4 p-8 relative z-10 rounded-tr-xl sm:rounded-t-xl lg:rounded-xl shadow-lg flex flex-col sm:flex-row lg:flex-col xl:flex-row;
+  @apply m-4 p-8 relative z-10 rounded-xl shadow-lg flex flex-col;
 }
 
 .btn {
-  @apply text-base font-medium rounded-lg p-3;
+  @apply text-base font-medium rounded-lg p-3 text-center cursor-pointer;
 }
 
 .btn--primary {
