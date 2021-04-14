@@ -28,19 +28,18 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundColor: ["active", "required"],
-      borderColor: ["required", "first"],
-      textColor: ["required"],
+      backgroundColor: ["active"],
+      borderColor: ["first"],
     },
   },
   plugins: [
     require("@tailwindcss/forms"),
-    plugin(function ({ addVariant, e }) {
-      addVariant("required", ({ modifySelectors, separator }) => {
-        modifySelectors(({ className }) => {
-          return `.${e(`required${separator}${className}`)}:required`;
-        });
-      });
-    }),
+    // plugin(function ({ addVariant, e }) {
+    //   addVariant("required", ({ modifySelectors, separator }) => {
+    //     modifySelectors(({ className }) => {
+    //       return `.${e(`required${separator}${className}`)}:required`;
+    //     });
+    //   });
+    // }),
   ],
 };
