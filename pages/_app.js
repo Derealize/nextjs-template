@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     if (typeof window === "undefined" || !window.derealize) return;
 
     const handleRouteChange = (url, { shallow }) => {
-      window.derealize.listen();
+      window.derealize.listenElement();
     };
 
     router.events.on("routeChangeComplete", handleRouteChange);
