@@ -11,15 +11,9 @@ export default () => {
         </div>
         <form className="flex-auto pl-6">
           <div className="flex flex-wrap items-baseline">
-            <h1 className="w-full flex-none font-semibold mb-2.5">
-              Kids Jumpsuit
-            </h1>
-            <div className="text-4xl leading-7 font-bold text-purple-600">
-              $39.00
-            </div>
-            <div className="text-sm font-medium text-gray-400 ml-3">
-              In stock
-            </div>
+            <h1 className="w-full flex-none font-semibold mb-2.5">Kids Jumpsuit</h1>
+            <div className="text-4xl leading-7 font-bold text-purple-600">$39.00</div>
+            <div className="text-sm font-medium text-gray-400 ml-3">In stock</div>
           </div>
           <div className="flex items-baseline my-8">
             <div className="space-x-2 flex text-sm font-medium">
@@ -70,9 +64,7 @@ export default () => {
                 XL
               </label>
             </div>
-            <div className="ml-3 text-sm text-gray-500 underline">
-              Size Guide
-            </div>
+            <div className="ml-3 text-sm text-gray-500 underline">Size Guide</div>
           </div>
           <div className="flex space-x-3 mb-4 text-sm font-semibold">
             <div className="flex-auto flex space-x-3">
@@ -103,9 +95,7 @@ export default () => {
               </svg>
             </button>
           </div>
-          <p className="text-sm text-gray-500">
-            Free shipping on all continental US orders.
-          </p>
+          <p className="text-sm text-gray-500">Free shipping on all continental US orders.</p>
         </form>
       </div>
     </div>

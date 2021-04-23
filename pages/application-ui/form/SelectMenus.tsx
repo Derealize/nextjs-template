@@ -2,10 +2,7 @@
 export default () => {
   return (
     <div className="bg-gray-100 p-16">
-      <label
-        id="listbox-label"
-        className="block text-sm font-medium text-gray-700"
-      >
+      <label id="listbox-label" className="block text-sm font-medium text-gray-700">
         Assigned to
       </label>
       <div className="mt-1 relative">
@@ -76,9 +73,7 @@ export default () => {
                 className="flex-shrink-0 h-6 w-6 rounded-full"
               />
               {/* <!-- Selected: "font-semibold", Not Selected: "font-normal" --> */}
-              <span className="font-normal ml-3 block truncate">
-                Wade Cooper
-              </span>
+              <span className="font-normal ml-3 block truncate">Wade Cooper</span>
             </div>
           </li>
 
@@ -94,9 +89,7 @@ export default () => {
                 className="flex-shrink-0 h-6 w-6 rounded-full"
               />
               {/* <!-- Selected: "font-semibold", Not Selected: "font-normal" --> */}
-              <span className="font-normal ml-3 block truncate">
-                Arlene Mccoy
-              </span>
+              <span className="font-normal ml-3 block truncate">Arlene Mccoy</span>
             </div>
           </li>
 

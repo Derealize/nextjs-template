@@ -11,9 +11,7 @@ export default () => {
         </div>
         <form className="flex-auto py-7 px-8">
           <div className="flex flex-wrap items-baseline">
-            <h1 className="w-full flex-none text-3xl text-black mb-1.5">
-              Fancy Suit Jacket
-            </h1>
+            <h1 className="w-full flex-none text-3xl text-black mb-1.5">Fancy Suit Jacket</h1>
             <div className="text-lg leading-6 text-black">$600.00</div>
             <div className="text-sm text-gray-500 ml-3">In stock</div>
           </div>
@@ -66,9 +64,7 @@ export default () => {
                 XL
               </label>
             </div>
-            <div className="ml-auto text-sm font-light text-gray-500">
-              Size Guide
-            </div>
+            <div className="ml-auto text-sm font-light text-gray-500">Size Guide</div>
           </div>
           <div className="flex space-x-3 mb-3 text-sm font-semibold uppercase">
             <div className="flex-auto flex space-x-3">
@@ -99,9 +95,7 @@ export default () => {
               </svg>
             </button>
           </div>
-          <p className="text-sm text-gray-500">
-            Free shipping on all continental US orders.
-          </p>
+          <p className="text-sm text-gray-500">Free shipping on all continental US orders.</p>
         </form>
       </div>
     </div>

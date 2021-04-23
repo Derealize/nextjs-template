@@ -11,9 +11,7 @@ export default () => {
         </div>
         <form className="flex-auto pl-6">
           <div className="flex flex-wrap items-baseline pl-52 -mt-6 -mr-6 -ml-52 py-6 pr-6 bg-black text-white">
-            <h1 className="w-full flex-none text-2xl leading-7 mb-2 font-bold">
-              Retro Shoe
-            </h1>
+            <h1 className="w-full flex-none text-2xl leading-7 mb-2 font-bold">Retro Shoe</h1>
             <div className="text-2xl leading-7 font-bold">$89.00</div>
             <div className="text-sm font-medium ml-3">In stock</div>
           </div>

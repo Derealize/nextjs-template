@@ -9,10 +9,7 @@ export default () => {
           <div className="px-4 sm:px-6 pb-6">
             <dt className="sr-only">Date and time</dt>
             <dd className="text-sm sm:text-base">
-              <time dateTime="2020-11-15T10:00:00-05:00">
-                Thu Nov 15, 2020 10:00am
-              </time>{" "}
-              -{" "}
+              <time dateTime="2020-11-15T10:00:00-05:00">Thu Nov 15, 2020 10:00am</time> -{" "}
               <time dateTime="2020-11-15T11:00:00-05:00">
                 11:00am<span className="sr-only sm:not-sr-only"> EST</span>
               </time>
@@ -30,9 +27,7 @@ export default () => {
             <dt className="w-2/5 sm:w-1/3 flex-none uppercase text-xs sm:text-sm font-semibold tracking-wide">
               Description
             </dt>
-            <dd className="italic text-sm sm:text-base">
-              No meeting description
-            </dd>
+            <dd className="italic text-sm sm:text-base">No meeting description</dd>
           </div>
           <div className="w-full flex-none flex items-center px-4 sm:px-6 py-4">
             <dt className="w-2/5 sm:w-1/3 flex-none uppercase text-xs sm:text-sm font-semibold tracking-wide">

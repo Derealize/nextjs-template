@@ -68,10 +68,7 @@ export default () => {
 
             <div className="h-full flex flex-col py-6 bg-white shadow-xl overflow-y-scroll">
               <div className="px-4 sm:px-6">
-                <h2
-                  className="text-lg font-medium text-gray-900"
-                  id="slide-over-title"
-                >
+                <h2 className="text-lg font-medium text-gray-900" id="slide-over-title">
                   Panel title
                 </h2>
               </div>

@@ -11,13 +11,9 @@ export default () => {
         </div>
         <form className="flex-auto p-6">
           <div className="flex flex-wrap">
-            <h1 className="flex-auto text-xl font-semibold">
-              Classic Utility Jacket
-            </h1>
+            <h1 className="flex-auto text-xl font-semibold">Classic Utility Jacket</h1>
             <div className="text-xl font-semibold text-gray-500">$110.00</div>
-            <div className="w-full flex-none text-sm font-medium text-gray-500 mt-2">
-              In stock
-            </div>
+            <div className="w-full flex-none text-sm font-medium text-gray-500 mt-2">In stock</div>
           </div>
           <div className="flex items-baseline mt-4 mb-6">
             <div className="space-x-2 flex">
@@ -68,9 +64,7 @@ export default () => {
                 XL
               </label>
             </div>
-            <div className="ml-auto text-sm text-gray-500 underline">
-              Size Guide
-            </div>
+            <div className="ml-auto text-sm text-gray-500 underline">Size Guide</div>
           </div>
           <div className="flex space-x-3 mb-4 text-sm font-medium">
             <div className="flex-auto flex space-x-3">
@@ -101,9 +95,7 @@ export default () => {
               </svg>
             </button>
           </div>
-          <p className="text-sm text-gray-500">
-            Free shipping on all continental US orders.
-          </p>
+          <p className="text-sm text-gray-500">Free shipping on all continental US orders.</p>
         </form>
       </div>
     </div>

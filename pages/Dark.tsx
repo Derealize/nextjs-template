@@ -54,10 +54,7 @@ export default () => {
               />
             </svg>
           </button>
-          <button
-            type="button"
-            className="hidden sm:block lg:hidden xl:block mx-auto"
-          >
+          <button type="button" className="hidden sm:block lg:hidden xl:block mx-auto">
             <svg width="17" height="18">
               <path d="M0 0h2v18H0V0zM4 9l13-9v18L4 9z" fill="currentColor" />
             </svg>
@@ -103,10 +100,7 @@ export default () => {
               <path d="M17 0l8 6-8 6V0z" fill="currentColor" />
             </svg>
           </button>
-          <button
-            type="button"
-            className="hidden sm:block lg:hidden xl:block mx-auto"
-          >
+          <button type="button" className="hidden sm:block lg:hidden xl:block mx-auto">
             <svg width="17" height="18" viewBox="0 0 17 18" fill="none">
               <path d="M17 0H15V18H17V0Z" fill="currentColor" />
               <path d="M13 9L0 0V18L13 9Z" fill="currentColor" />

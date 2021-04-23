@@ -11,8 +11,7 @@ export default function Home() {
       </Head>
 
       <h1 className={styles.title}>
-        Welcome to{" "}
-        <a href="https://derealize.com">Derealize - Tailwindcss Studio!</a>
+        Welcome to <a href="https://derealize.com">Derealize - Tailwindcss Studio!</a>
       </h1>
       <div className={styles.main}>
         <p>
@@ -165,8 +164,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="float-right hover:float-left "
         >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Powered by <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>

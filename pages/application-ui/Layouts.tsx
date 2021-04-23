@@ -239,9 +239,7 @@ export default () => {
                 />
               </div>
               <div className="ml-3">
-                <div className="text-base font-medium leading-none text-white">
-                  Tom Cook
-                </div>
+                <div className="text-base font-medium leading-none text-white">Tom Cook</div>
                 <div className="text-sm font-medium leading-none text-gray-400">
                   tom@example.com
                 </div>

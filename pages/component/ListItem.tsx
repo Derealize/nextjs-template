@@ -9,9 +9,7 @@ export default function ListItem({ recipe }) {
         height="144"
       />
       <div className="min-w-0 relative flex-auto sm:pr-20 lg:pr-0 xl:pr-20">
-        <h2 className="text-lg font-semibold text-black mb-0.5">
-          {recipe.title}
-        </h2>
+        <h2 className="text-lg font-semibold text-black mb-0.5">{recipe.title}</h2>
         <dl className="flex flex-wrap text-sm font-medium whitespace-pre">
           <div>
             <dt className="sr-only">Time</dt>
@@ -28,8 +26,7 @@ export default function ListItem({ recipe }) {
             <dd> · {recipe.servings} servings</dd>
           </div>
           <div className="flex-none w-full mt-0.5 font-normal">
-            <dt className="inline">By</dt>{" "}
-            <dd className="inline text-black">{recipe.author}</dd>
+            <dt className="inline">By</dt> <dd className="inline text-black">{recipe.author}</dd>
           </div>
           <div className="absolute top-0 right-0 rounded-full bg-amber-50 text-amber-900 px-2 py-0.5 hidden sm:flex lg:hidden xl:flex items-center space-x-1">
             <dt className="text-amber-500">

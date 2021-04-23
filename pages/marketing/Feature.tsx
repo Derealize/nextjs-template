@@ -10,8 +10,8 @@ export default () => {
             A better way to send money
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum
+            cupiditate veritatis in accusamus quisquam.
           </p>
         </div>
 
@@ -42,9 +42,8 @@ export default () => {
                 </p>
               </dt>
               <dd className="mt-2 ml-16 text-base text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
+                perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </dd>
             </div>
 
@@ -68,14 +67,11 @@ export default () => {
                     />
                   </svg>
                 </div>
-                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
-                  No hidden fees
-                </p>
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">No hidden fees</p>
               </dt>
               <dd className="mt-2 ml-16 text-base text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
+                perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </dd>
             </div>
 
@@ -104,9 +100,8 @@ export default () => {
                 </p>
               </dt>
               <dd className="mt-2 ml-16 text-base text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
+                perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </dd>
             </div>
 
@@ -135,9 +130,8 @@ export default () => {
                 </p>
               </dt>
               <dd className="mt-2 ml-16 text-base text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit
+                perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </dd>
             </div>
           </dl>
