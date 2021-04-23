@@ -16,7 +16,7 @@ a {
 }
 
 .ground {
-  @apply m-4 p-8 relative z-10 rounded-xl shadow-lg flex flex-col;
+  @apply m-4 p-8 relative z-10 rounded-xl shadow-lg;
 }
 
 .btn {
