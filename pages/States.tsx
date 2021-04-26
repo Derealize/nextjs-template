@@ -9,8 +9,7 @@ export default () => {
               className="group-hover:text-light-blue-600 text-light-blue-500 mr-2"
               width="12"
               height="20"
-              fill="currentColor"
-            >
+              fill="currentColor">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -25,8 +24,7 @@ export default () => {
             width="20"
             height="20"
             fill="currentColor"
-            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
-          >
+            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
@@ -44,8 +42,7 @@ export default () => {
           <li x-for="item in items">
             <a
               href="item.url"
-              className="hover:bg-light-blue-500 hover:border-transparent hover:shadow-lg group block rounded-lg p-4 border border-gray-200"
-            >
+              className="hover:bg-light-blue-500 hover:border-transparent hover:shadow-lg group block rounded-lg p-4 border border-gray-200">
               <dl className="grid sm:block lg:grid xl:block grid-cols-2 grid-rows-2 items-center">
                 <div>
                   <dt className="sr-only">Title</dt>
@@ -78,8 +75,7 @@ export default () => {
           <li className="hover:shadow-lg flex rounded-lg">
             <a
               href="/new"
-              className="hover:border-transparent hover:shadow-xs w-full flex items-center justify-center rounded-lg border-2 border-dashed border-gray-200 text-sm font-medium py-4"
-            >
+              className="hover:border-transparent hover:shadow-xs w-full flex items-center justify-center rounded-lg border-2 border-dashed border-gray-200 text-sm font-medium py-4">
               New Project
             </a>
           </li>

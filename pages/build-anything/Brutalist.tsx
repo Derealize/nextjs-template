@@ -47,22 +47,19 @@ export default () => {
             <div className="flex-auto flex space-x-3">
               <button
                 className="w-1/2 flex items-center justify-center bg-lime-300 text-black border border-black shadow-offset-black"
-                type="submit"
-              >
+                type="submit">
                 Buy now
               </button>
               <button
                 className="w-1/2 flex items-center justify-center border border-black shadow-offset-black"
-                type="button"
-              >
+                type="button">
                 Add to bag
               </button>
             </div>
             <button
               className="flex-none flex items-center justify-center w-9 h-9 border border-black"
               type="button"
-              aria-label="like"
-            >
+              aria-label="like">
               <svg width="20" height="20" fill="currentColor">
                 <path
                   fill-rule="evenodd"

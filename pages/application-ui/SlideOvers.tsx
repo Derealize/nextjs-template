@@ -4,8 +4,7 @@ export default () => {
       className="fixed inset-0 overflow-hidden"
       aria-labelledby="slide-over-title"
       role="dialog"
-      aria-modal="true"
-    >
+      aria-modal="true">
       <div className="absolute inset-0 overflow-hidden">
         {/* <!--
       Background overlay, show/hide based on slide-over state.
@@ -19,8 +18,7 @@ export default () => {
     --> */}
         <div
           className="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
-          aria-hidden="true"
-        ></div>
+          aria-hidden="true"></div>
 
         <div className="absolute inset-y-0 right-0 pl-10 max-w-full flex">
           {/* <!--
@@ -54,8 +52,7 @@ export default () => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  aria-hidden="true"
-                >
+                  aria-hidden="true">
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -77,8 +74,7 @@ export default () => {
                 <div className="absolute inset-0 px-4 sm:px-6">
                   <div
                     className="h-full border-2 border-dashed border-gray-200"
-                    aria-hidden="true"
-                  ></div>
+                    aria-hidden="true"></div>
                 </div>
                 {/* <!-- /End replace --> */}
               </div>

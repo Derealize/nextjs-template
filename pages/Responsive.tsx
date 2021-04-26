@@ -33,8 +33,7 @@ export default () => {
           </p>
           <button
             type="button"
-            className="bg-violet-100 text-violet-700 text-base font-semibold px-6 py-2 rounded-lg"
-          >
+            className="bg-violet-100 text-violet-700 text-base font-semibold px-6 py-2 rounded-lg">
             Check availability
           </button>
         </div>

@@ -15,14 +15,12 @@ export default () => {
           <div className="w-40 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"></div>
         </li>
         <li>
-          <div className="w-32 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600 py-4 hover:py-8 "></div>
+          <div className="w-32 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600 py-4 m-9"></div>
         </li>
         <li>
           <div className="w-24 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"></div>
         </li>
-        <li>
-          <div className="w-20 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"></div>
-        </li>
+        <li></li>
         <li>
           <div className="w-16 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"></div>
         </li>
