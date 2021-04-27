@@ -34,8 +34,7 @@ export default () => {
                 role="progressbar"
                 aria-valuenow={1456}
                 aria-valuemin={0}
-                aria-valuemax={4550}
-              ></div>
+                aria-valuemax={4550}></div>
             </div>
             <div className="text-gray-500 dark:text-gray-400 flex justify-between text-sm font-medium tabular-nums">
               <div>24:16</div>
@@ -108,8 +107,7 @@ export default () => {
           </button>
           <button
             type="button"
-            className="mx-auto border border-gray-300 rounded-md text-sm font-medium py-0.5 px-2 text-gray-500 dark:border-gray-600 dark:text-gray-400"
-          >
+            className="mx-auto border border-gray-300 rounded-md text-sm font-medium py-0.5 px-2 text-gray-500 dark:border-gray-600 dark:text-gray-400">
             1.0x
           </button>
         </div>

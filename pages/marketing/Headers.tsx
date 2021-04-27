@@ -17,8 +17,7 @@ export default () => {
             <button
               type="button"
               className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-              aria-expanded="false"
-            >
+              aria-expanded="false">
               <span className="sr-only">Open menu</span>
               {/* <!-- Heroicon name: outline/menu --> */}
               <svg
@@ -27,8 +26,7 @@ export default () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                aria-hidden="true"
-              >
+                aria-hidden="true">
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -44,8 +42,7 @@ export default () => {
               <button
                 type="button"
                 className="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                aria-expanded="false"
-              >
+                aria-expanded="false">
                 <span>Solutions</span>
                 {/* <!--
               Heroicon name: solid/chevron-down
@@ -57,8 +54,7 @@ export default () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  aria-hidden="true"
-                >
+                  aria-hidden="true">
                   <path
                     fill-rule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -88,8 +84,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -113,8 +108,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -138,8 +132,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -163,8 +156,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -188,8 +180,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -209,8 +200,7 @@ export default () => {
                     <div className="flow-root">
                       <a
                         href="#"
-                        className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                      >
+                        className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
                         {/* <!-- Heroicon name: outline/play --> */}
                         <svg
                           className="flex-shrink-0 h-6 w-6 text-gray-400"
@@ -218,8 +208,7 @@ export default () => {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          aria-hidden="true"
-                        >
+                          aria-hidden="true">
                           <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -240,8 +229,7 @@ export default () => {
                     <div className="flow-root">
                       <a
                         href="#"
-                        className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                      >
+                        className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
                         {/* <!-- Heroicon name: outline/phone --> */}
                         <svg
                           className="flex-shrink-0 h-6 w-6 text-gray-400"
@@ -249,8 +237,7 @@ export default () => {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          aria-hidden="true"
-                        >
+                          aria-hidden="true">
                           <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -278,8 +265,7 @@ export default () => {
               <button
                 type="button"
                 className="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                aria-expanded="false"
-              >
+                aria-expanded="false">
                 <span>More</span>
                 {/* <!--
               Heroicon name: solid/chevron-down
@@ -291,8 +277,7 @@ export default () => {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  aria-hidden="true"
-                >
+                  aria-hidden="true">
                   <path
                     fill-rule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -322,8 +307,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -347,8 +331,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -372,8 +355,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -397,8 +379,7 @@ export default () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        aria-hidden="true"
-                      >
+                        aria-hidden="true">
                         <path
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -453,14 +434,12 @@ export default () => {
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a
               href="#"
-              className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
-            >
+              className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
               Sign in
             </a>
             <a
               href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-            >
+              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
               Sign up
             </a>
           </div>
@@ -491,8 +470,7 @@ export default () => {
               <div className="-mr-2">
                 <button
                   type="button"
-                  className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                >
+                  className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Close menu</span>
                   {/* <!-- Heroicon name: outline/x --> */}
                   <svg
@@ -501,8 +479,7 @@ export default () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -523,8 +500,7 @@ export default () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -543,8 +519,7 @@ export default () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -563,8 +538,7 @@ export default () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -583,8 +557,7 @@ export default () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -603,8 +576,7 @@ export default () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    aria-hidden="true"
-                  >
+                    aria-hidden="true">
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -646,8 +618,7 @@ export default () => {
             <div>
               <a
                 href="#"
-                className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-              >
+                className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                 Sign up
               </a>
               <p className="mt-6 text-center text-base font-medium text-gray-500">
