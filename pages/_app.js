@@ -4,7 +4,7 @@ import resolveConfig from "tailwindcss/resolveConfig";
 import config from "../tailwind.config";
 import "../styles/globals.css";
 
-console.log(resolveConfig(config));
+// console.log(resolveConfig(config));
 // console.log(JSON.stringify(resolveConfig(config)));
 
 function MyApp({ Component, pageProps }) {
