@@ -1,4 +1,6 @@
 export default function ListItem({ recipe }) {
+  if (!recipe) return <></>;
+
   return (
     <article className="p-4 flex space-x-4">
       <img
