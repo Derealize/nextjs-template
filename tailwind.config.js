@@ -1,4 +1,5 @@
-const plugin = require("tailwindcss/plugin");
+// https://github.com/tailwindlabs/tailwindcss-forms/issues/31#issuecomment-763461787
+// const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
