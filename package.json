@@ -29,7 +29,7 @@
   "derealize": {
     "runScript": "dev",
     "formatScript": "format",
-    "lunchUrl": "http://localhost:3001",
+    "baseUrl": "http://localhost:3001",
     "port": 3001,
     "pages": [
       "/",
@@ -72,8 +72,8 @@
       "/application-ui/form/SelectMenus",
       "/application-ui/form/SignIn"
     ],
-    "assets": "public/assets",
-    "assetsPublicPath": "/assets",
+    "assetsPath": "public/assets",
+    "assetsUrl": "/assets",
     "applyCssFile": "styles/globals.css"
   }
 }

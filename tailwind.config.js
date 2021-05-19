@@ -30,9 +30,7 @@ module.exports = {
         "offset-black": "2px 2px black",
         "offset-lime": "2px 2px lime",
       },
-      backgroundImage: {
-        chat: "url('/assets/chat.svg')",
-      },
+      backgroundImage: {},
     },
   },
   variants: {
