@@ -73,6 +73,7 @@
       "/application-ui/form/SignIn"
     ],
     "assets": "public/assets",
+    "assetsPublicPath": "/assets",
     "applyCssFile": "styles/globals.css"
   }
 }
