@@ -72,7 +72,7 @@
       "/application-ui/form/SelectMenus",
       "/application-ui/form/SignIn"
     ],
-    "assetsPath": "public/assets",
+    "assetsPath": "./public/assets",
     "assetsUrl": "/assets",
     "applyCssFile": "styles/globals.css"
   }
