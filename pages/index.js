@@ -18,6 +18,9 @@ export default function Home() {
           <Link href="/Welcome">
             <a>Welcome</a>
           </Link>
+          <Link href="/WelcomePlayground">
+            <a>WelcomePlayground</a>
+          </Link>
           <Link href="/Play">
             <a>Play</a>
           </Link>
