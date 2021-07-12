@@ -3,7 +3,7 @@ export default () => {
     <div className="ground">
       <div className="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
         <img
-          className="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto shadow shadow-md shadow-lg shadow-xl shadow-2xl shadow-inner shadow-2xl shadow-sm shadow shadow-md shadow-lg shadow-xl shadow-2xl shadow-xl shadow-lg shadow-md shadow shadow-sm "
+          className="object-cover w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto shadow shadow-md shadow-lg shadow-xl shadow-2xl shadow-inner shadow-2xl shadow-sm shadow shadow-md shadow-lg shadow-xl shadow-2xl shadow-xl shadow-lg shadow-md shadow shadow-sm "
           src="/sarah-dayan.jpg"
           alt=""
           width="384"
